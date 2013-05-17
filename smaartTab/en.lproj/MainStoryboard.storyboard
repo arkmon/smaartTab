@@ -91,7 +91,7 @@
         <scene sceneID="yD3-8O-adm">
             <objects>
                 <splitViewController id="1G9-MB-7SP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="level 6" id="HDG-kw-7Ox"/>
+                    <tabBarItem key="tabBarItem" title="level 6" image="quill.png" id="HDG-kw-7Ox"/>
                     <toolbarItems/>
                     <connections>
                         <segue destination="Vf8-08-Kyi" kind="relationship" relationship="masterViewController" id="VfL-2u-xUl"/>
@@ -166,7 +166,7 @@
         <scene sceneID="jfK-64-zX2">
             <objects>
                 <splitViewController id="2w2-yH-VQW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Summary" id="JKV-G7-4QH"/>
+                    <tabBarItem key="tabBarItem" title="Summary" image="notes.png" id="JKV-G7-4QH"/>
                     <toolbarItems/>
                     <connections>
                         <segue destination="k9a-9u-BAc" kind="relationship" relationship="masterViewController" id="ZdR-Xk-9Vb"/>
@@ -297,11 +297,11 @@
             </objects>
             <point key="canvasLocation" x="270" y="-2100"/>
         </scene>
-        <!--Split View Controller - level4-->
+        <!--Split View Controller - level 4-->
         <scene sceneID="VP2-D9-LRI">
             <objects>
                 <splitViewController id="LUx-Cz-kB3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="level4" id="DUm-5j-kUo"/>
+                    <tabBarItem key="tabBarItem" title="level 4" image="pencil.png" id="DUm-5j-kUo"/>
                     <toolbarItems/>
                     <connections>
                         <segue destination="LXb-p6-f0O" kind="relationship" relationship="masterViewController" id="q9i-D1-iGN"/>
@@ -331,7 +331,7 @@
         <scene sceneID="fbd-vG-qBT">
             <objects>
                 <splitViewController id="ySC-dn-oWK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="level 5" id="d57-NI-t17"/>
+                    <tabBarItem key="tabBarItem" title="level 5" image="pen.png" id="d57-NI-t17"/>
                     <toolbarItems/>
                     <connections>
                         <segue destination="j3c-la-ZHG" kind="relationship" relationship="masterViewController" id="iic-tl-IcG"/>
@@ -364,6 +364,12 @@
             <point key="canvasLocation" x="-1817" y="382"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="notes.png" width="32" height="32"/>
+        <image name="pen.png" width="32" height="32"/>
+        <image name="pencil.png" width="32" height="32"/>
+        <image name="quill.png" width="32" height="32"/>
+    </resources>
     <classes>
         <class className="Lev4DetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Lev4DetailViewController.h"/>

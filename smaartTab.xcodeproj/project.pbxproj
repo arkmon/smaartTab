@@ -32,6 +32,15 @@
 		55AA5BBB1746D3AE000D6E9D /* Lev6DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BBA1746D3AE000D6E9D /* Lev6DetailViewController.m */; };
 		55AA5BBF1746D478000D6E9D /* SummaryMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BBE1746D478000D6E9D /* SummaryMasterViewController.m */; };
 		55AA5BC21746D4A6000D6E9D /* SummaryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BC11746D4A6000D6E9D /* SummaryDetailViewController.m */; };
+		55AA66A01746E1B0000D6E9D /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA669A1746E1B0000D6E9D /* pen.png */; };
+		55AA66A11746E1B0000D6E9D /* pen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA669B1746E1B0000D6E9D /* pen@2x.png */; };
+		55AA66A21746E1B0000D6E9D /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA669C1746E1B0000D6E9D /* pencil.png */; };
+		55AA66A31746E1B0000D6E9D /* pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA669D1746E1B0000D6E9D /* pencil@2x.png */; };
+		55AA66A41746E1B0000D6E9D /* quill.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA669E1746E1B0000D6E9D /* quill.png */; };
+		55AA66A51746E1B0000D6E9D /* quill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA669F1746E1B0000D6E9D /* quill@2x.png */; };
+		55AA66A81746E65F000D6E9D /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA66A61746E65F000D6E9D /* notes.png */; };
+		55AA66A91746E65F000D6E9D /* notes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA66A71746E65F000D6E9D /* notes@2x.png */; };
+		55AA66AC1746EC43000D6E9D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55AA66AA1746EC43000D6E9D /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +83,15 @@
 		55AA5BBE1746D478000D6E9D /* SummaryMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryMasterViewController.m; sourceTree = "<group>"; };
 		55AA5BC01746D4A6000D6E9D /* SummaryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryDetailViewController.h; sourceTree = "<group>"; };
 		55AA5BC11746D4A6000D6E9D /* SummaryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryDetailViewController.m; sourceTree = "<group>"; };
+		55AA669A1746E1B0000D6E9D /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
+		55AA669B1746E1B0000D6E9D /* pen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pen@2x.png"; sourceTree = "<group>"; };
+		55AA669C1746E1B0000D6E9D /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		55AA669D1746E1B0000D6E9D /* pencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pencil@2x.png"; sourceTree = "<group>"; };
+		55AA669E1746E1B0000D6E9D /* quill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quill.png; sourceTree = "<group>"; };
+		55AA669F1746E1B0000D6E9D /* quill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quill@2x.png"; sourceTree = "<group>"; };
+		55AA66A61746E65F000D6E9D /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+		55AA66A71746E65F000D6E9D /* notes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notes@2x.png"; sourceTree = "<group>"; };
+		55AA66AB1746EC43000D6E9D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +112,7 @@
 		55AA5B351746B5CD000D6E9D = {
 			isa = PBXGroup;
 			children = (
+				55AA66AA1746EC43000D6E9D /* Model.xcdatamodeld */,
 				55AA5B471746B5CE000D6E9D /* smaartTab */,
 				55AA5B401746B5CE000D6E9D /* Frameworks */,
 				55AA5B3F1746B5CE000D6E9D /* Products */,
@@ -125,12 +144,20 @@
 				55AA5B501746B5CE000D6E9D /* AppDelegate.h */,
 				55AA5B511746B5CE000D6E9D /* AppDelegate.m */,
 				55AA5B591746B5CE000D6E9D /* MainStoryboard.storyboard */,
+				55AA66A61746E65F000D6E9D /* notes.png */,
+				55AA66A71746E65F000D6E9D /* notes@2x.png */,
 				55AA5BC31746D4B2000D6E9D /* Summary */,
 				55AA5BBC1746D3B7000D6E9D /* Lev6 */,
 				55AA5BB51746D2ED000D6E9D /* Lev5 */,
 				55AA5BAB1746D193000D6E9D /* Lev4 */,
 				55AA5BC41746D4E1000D6E9D /* old views */,
 				55AA5B5F1746B5CE000D6E9D /* first.png */,
+				55AA669A1746E1B0000D6E9D /* pen.png */,
+				55AA669B1746E1B0000D6E9D /* pen@2x.png */,
+				55AA669C1746E1B0000D6E9D /* pencil.png */,
+				55AA669D1746E1B0000D6E9D /* pencil@2x.png */,
+				55AA669E1746E1B0000D6E9D /* quill.png */,
+				55AA669F1746E1B0000D6E9D /* quill@2x.png */,
 				55AA5B611746B5CE000D6E9D /* first@2x.png */,
 				55AA5B661746B5CE000D6E9D /* second.png */,
 				55AA5B681746B5CE000D6E9D /* second@2x.png */,
@@ -268,6 +295,14 @@
 				55AA5B621746B5CE000D6E9D /* first@2x.png in Resources */,
 				55AA5B671746B5CE000D6E9D /* second.png in Resources */,
 				55AA5B691746B5CE000D6E9D /* second@2x.png in Resources */,
+				55AA66A01746E1B0000D6E9D /* pen.png in Resources */,
+				55AA66A11746E1B0000D6E9D /* pen@2x.png in Resources */,
+				55AA66A21746E1B0000D6E9D /* pencil.png in Resources */,
+				55AA66A31746E1B0000D6E9D /* pencil@2x.png in Resources */,
+				55AA66A41746E1B0000D6E9D /* quill.png in Resources */,
+				55AA66A51746E1B0000D6E9D /* quill@2x.png in Resources */,
+				55AA66A81746E65F000D6E9D /* notes.png in Resources */,
+				55AA66A91746E65F000D6E9D /* notes@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +325,7 @@
 				55AA5BBB1746D3AE000D6E9D /* Lev6DetailViewController.m in Sources */,
 				55AA5BBF1746D478000D6E9D /* SummaryMasterViewController.m in Sources */,
 				55AA5BC21746D4A6000D6E9D /* SummaryDetailViewController.m in Sources */,
+				55AA66AC1746EC43000D6E9D /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +450,23 @@
 				55AA5B6E1746B5CE000D6E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55AA66AA1746EC43000D6E9D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55AA66AB1746EC43000D6E9D /* Model.xcdatamodel */,
+			);
+			currentVersion = 55AA66AB1746EC43000D6E9D /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = smaartTab/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 55AA5B361746B5CD000D6E9D /* Project object */;
 }

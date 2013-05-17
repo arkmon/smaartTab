@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Assesment" syncable="YES">
+        <attribute name="max_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="whichModule" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Module" inverseName="assesments" inverseEntity="Module" syncable="YES"/>
+    </entity>
+    <entity name="Level" syncable="YES">
+        <attribute name="value" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="modules" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Module" inverseName="level_number" inverseEntity="Module" syncable="YES"/>
+    </entity>
+    <entity name="Module" syncable="YES">
+        <attribute name="credit" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="module_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="module_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="semester" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="assesments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Assesment" inverseName="whichModule" inverseEntity="Assesment" syncable="YES"/>
+        <relationship name="level_number" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Level" inverseName="modules" inverseEntity="Level" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Module" positionX="160" positionY="192" width="128" height="133"/>
+        <element name="Assesment" positionX="-99" positionY="263" width="128" height="133"/>
+        <element name="Level" positionX="412" positionY="300" width="128" height="73"/>
+    </elements>
+</model>
