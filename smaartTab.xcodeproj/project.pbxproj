@@ -23,6 +23,15 @@
 		55AA5B651746B5CE000D6E9D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5B641746B5CE000D6E9D /* SecondViewController.m */; };
 		55AA5B671746B5CE000D6E9D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA5B661746B5CE000D6E9D /* second.png */; };
 		55AA5B691746B5CE000D6E9D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AA5B681746B5CE000D6E9D /* second@2x.png */; };
+		55AA5B701746B61D000D6E9D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AA5B6F1746B61D000D6E9D /* CoreData.framework */; };
+		55AA5BAA1746D16F000D6E9D /* Lev4MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BA91746D16F000D6E9D /* Lev4MasterViewController.m */; };
+		55AA5BAE1746D216000D6E9D /* Lev4DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BAD1746D216000D6E9D /* Lev4DetailViewController.m */; };
+		55AA5BB11746D2C7000D6E9D /* Lev5MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BB01746D2C7000D6E9D /* Lev5MasterViewController.m */; };
+		55AA5BB41746D2E5000D6E9D /* Lev5DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BB31746D2E5000D6E9D /* Lev5DetailViewController.m */; };
+		55AA5BB81746D389000D6E9D /* Lev6MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BB71746D388000D6E9D /* Lev6MasterViewController.m */; };
+		55AA5BBB1746D3AE000D6E9D /* Lev6DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BBA1746D3AE000D6E9D /* Lev6DetailViewController.m */; };
+		55AA5BBF1746D478000D6E9D /* SummaryMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BBE1746D478000D6E9D /* SummaryMasterViewController.m */; };
+		55AA5BC21746D4A6000D6E9D /* SummaryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AA5BC11746D4A6000D6E9D /* SummaryDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +57,23 @@
 		55AA5B641746B5CE000D6E9D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		55AA5B661746B5CE000D6E9D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		55AA5B681746B5CE000D6E9D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		55AA5B6F1746B61D000D6E9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55AA5BA81746D16F000D6E9D /* Lev4MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lev4MasterViewController.h; sourceTree = "<group>"; };
+		55AA5BA91746D16F000D6E9D /* Lev4MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lev4MasterViewController.m; sourceTree = "<group>"; };
+		55AA5BAC1746D216000D6E9D /* Lev4DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lev4DetailViewController.h; sourceTree = "<group>"; };
+		55AA5BAD1746D216000D6E9D /* Lev4DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lev4DetailViewController.m; sourceTree = "<group>"; };
+		55AA5BAF1746D2C7000D6E9D /* Lev5MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lev5MasterViewController.h; sourceTree = "<group>"; };
+		55AA5BB01746D2C7000D6E9D /* Lev5MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lev5MasterViewController.m; sourceTree = "<group>"; };
+		55AA5BB21746D2E5000D6E9D /* Lev5DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lev5DetailViewController.h; sourceTree = "<group>"; };
+		55AA5BB31746D2E5000D6E9D /* Lev5DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lev5DetailViewController.m; sourceTree = "<group>"; };
+		55AA5BB61746D388000D6E9D /* Lev6MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lev6MasterViewController.h; sourceTree = "<group>"; };
+		55AA5BB71746D388000D6E9D /* Lev6MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lev6MasterViewController.m; sourceTree = "<group>"; };
+		55AA5BB91746D3AE000D6E9D /* Lev6DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lev6DetailViewController.h; sourceTree = "<group>"; };
+		55AA5BBA1746D3AE000D6E9D /* Lev6DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lev6DetailViewController.m; sourceTree = "<group>"; };
+		55AA5BBD1746D478000D6E9D /* SummaryMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryMasterViewController.h; sourceTree = "<group>"; };
+		55AA5BBE1746D478000D6E9D /* SummaryMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryMasterViewController.m; sourceTree = "<group>"; };
+		55AA5BC01746D4A6000D6E9D /* SummaryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryDetailViewController.h; sourceTree = "<group>"; };
+		55AA5BC11746D4A6000D6E9D /* SummaryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AA5B701746B61D000D6E9D /* CoreData.framework in Frameworks */,
 				55AA5B421746B5CE000D6E9D /* UIKit.framework in Frameworks */,
 				55AA5B441746B5CE000D6E9D /* Foundation.framework in Frameworks */,
 				55AA5B461746B5CE000D6E9D /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +111,7 @@
 		55AA5B401746B5CE000D6E9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55AA5B6F1746B61D000D6E9D /* CoreData.framework */,
 				55AA5B411746B5CE000D6E9D /* UIKit.framework */,
 				55AA5B431746B5CE000D6E9D /* Foundation.framework */,
 				55AA5B451746B5CE000D6E9D /* CoreGraphics.framework */,
@@ -97,12 +125,13 @@
 				55AA5B501746B5CE000D6E9D /* AppDelegate.h */,
 				55AA5B511746B5CE000D6E9D /* AppDelegate.m */,
 				55AA5B591746B5CE000D6E9D /* MainStoryboard.storyboard */,
-				55AA5B5C1746B5CE000D6E9D /* FirstViewController.h */,
-				55AA5B5D1746B5CE000D6E9D /* FirstViewController.m */,
+				55AA5BC31746D4B2000D6E9D /* Summary */,
+				55AA5BBC1746D3B7000D6E9D /* Lev6 */,
+				55AA5BB51746D2ED000D6E9D /* Lev5 */,
+				55AA5BAB1746D193000D6E9D /* Lev4 */,
+				55AA5BC41746D4E1000D6E9D /* old views */,
 				55AA5B5F1746B5CE000D6E9D /* first.png */,
 				55AA5B611746B5CE000D6E9D /* first@2x.png */,
-				55AA5B631746B5CE000D6E9D /* SecondViewController.h */,
-				55AA5B641746B5CE000D6E9D /* SecondViewController.m */,
 				55AA5B661746B5CE000D6E9D /* second.png */,
 				55AA5B681746B5CE000D6E9D /* second@2x.png */,
 				55AA5B481746B5CE000D6E9D /* Supporting Files */,
@@ -122,6 +151,61 @@
 				55AA5B571746B5CE000D6E9D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55AA5BAB1746D193000D6E9D /* Lev4 */ = {
+			isa = PBXGroup;
+			children = (
+				55AA5BA81746D16F000D6E9D /* Lev4MasterViewController.h */,
+				55AA5BA91746D16F000D6E9D /* Lev4MasterViewController.m */,
+				55AA5BAC1746D216000D6E9D /* Lev4DetailViewController.h */,
+				55AA5BAD1746D216000D6E9D /* Lev4DetailViewController.m */,
+			);
+			name = Lev4;
+			sourceTree = "<group>";
+		};
+		55AA5BB51746D2ED000D6E9D /* Lev5 */ = {
+			isa = PBXGroup;
+			children = (
+				55AA5BAF1746D2C7000D6E9D /* Lev5MasterViewController.h */,
+				55AA5BB01746D2C7000D6E9D /* Lev5MasterViewController.m */,
+				55AA5BB21746D2E5000D6E9D /* Lev5DetailViewController.h */,
+				55AA5BB31746D2E5000D6E9D /* Lev5DetailViewController.m */,
+			);
+			name = Lev5;
+			sourceTree = "<group>";
+		};
+		55AA5BBC1746D3B7000D6E9D /* Lev6 */ = {
+			isa = PBXGroup;
+			children = (
+				55AA5BB91746D3AE000D6E9D /* Lev6DetailViewController.h */,
+				55AA5BBA1746D3AE000D6E9D /* Lev6DetailViewController.m */,
+				55AA5BB61746D388000D6E9D /* Lev6MasterViewController.h */,
+				55AA5BB71746D388000D6E9D /* Lev6MasterViewController.m */,
+			);
+			name = Lev6;
+			sourceTree = "<group>";
+		};
+		55AA5BC31746D4B2000D6E9D /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				55AA5BBD1746D478000D6E9D /* SummaryMasterViewController.h */,
+				55AA5BBE1746D478000D6E9D /* SummaryMasterViewController.m */,
+				55AA5BC01746D4A6000D6E9D /* SummaryDetailViewController.h */,
+				55AA5BC11746D4A6000D6E9D /* SummaryDetailViewController.m */,
+			);
+			name = Summary;
+			sourceTree = "<group>";
+		};
+		55AA5BC41746D4E1000D6E9D /* old views */ = {
+			isa = PBXGroup;
+			children = (
+				55AA5B5C1746B5CE000D6E9D /* FirstViewController.h */,
+				55AA5B5D1746B5CE000D6E9D /* FirstViewController.m */,
+				55AA5B631746B5CE000D6E9D /* SecondViewController.h */,
+				55AA5B641746B5CE000D6E9D /* SecondViewController.m */,
+			);
+			name = "old views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +282,14 @@
 				55AA5B521746B5CE000D6E9D /* AppDelegate.m in Sources */,
 				55AA5B5E1746B5CE000D6E9D /* FirstViewController.m in Sources */,
 				55AA5B651746B5CE000D6E9D /* SecondViewController.m in Sources */,
+				55AA5BAA1746D16F000D6E9D /* Lev4MasterViewController.m in Sources */,
+				55AA5BAE1746D216000D6E9D /* Lev4DetailViewController.m in Sources */,
+				55AA5BB11746D2C7000D6E9D /* Lev5MasterViewController.m in Sources */,
+				55AA5BB41746D2E5000D6E9D /* Lev5DetailViewController.m in Sources */,
+				55AA5BB81746D389000D6E9D /* Lev6MasterViewController.m in Sources */,
+				55AA5BBB1746D3AE000D6E9D /* Lev6DetailViewController.m in Sources */,
+				55AA5BBF1746D478000D6E9D /* SummaryMasterViewController.m in Sources */,
+				55AA5BC21746D4A6000D6E9D /* SummaryDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
